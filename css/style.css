@@ -296,15 +296,21 @@ head {
     border-radius: 30px;
     cursor: pointer;
     width: 595px;
-    height: 65px;
+    height: 45px;
     margin-top: 15px;
     font-weight: bold;
     font-size: 20px;
     display: block;
     margin-left: 25%;
+    text-decoration: none;
+
 }
 
-
+.condition a {
+ text-align: center;
+    padding-top: 20px;
+    color: #000000;
+}
 
 
 .format {
@@ -413,7 +419,12 @@ head {
     cursor: pointer;
 }
 
-
+.modal_butt a {
+    text-decoration: none;
+    padding-top: 20px;
+    color: #000000;
+    text-align: center;
+}
 
 .format h5 {
     padding-bottom: 20px;
@@ -427,7 +438,7 @@ head {
     border-radius: 30px;
     cursor: pointer;
     width: 520px;
-    height: 65px;
+    height: 45px;
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
@@ -438,7 +449,12 @@ head {
 }
 
 
-
+.slider-a a {
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    text-decoration: none;
+}
 
 
 .facty {
@@ -477,7 +493,7 @@ head {
     border-radius: 30px;
     cursor: pointer;
     width: 675px;
-    height: 65px;
+    height: 45px;
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
@@ -731,4 +747,46 @@ footer section ul li {
     font-size: 18px;
     padding-top: 10px;
     padding-left: 75px;
+}
+
+
+
+
+
+
+.modal_div {
+    position: fixed;
+    left: 30%;
+    margin-top: -250px;
+    margin-left: -150px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+
+}
+
+h6 span{
+    width: 23px;
+    height: 21px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+    margin-right: 10px;
+    margin-top: -40px;
+    float: right;
+}
+
+#overlay {
+    z-index:3;
+    position:fixed;
+    background-color:#000;
+    opacity:0.8;
+    -moz-opacity:0.8;
+    filter:alpha(opacity=80);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    cursor:pointer;
+    display:none;
 }

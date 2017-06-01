@@ -102,7 +102,8 @@
 
         <div class="condition">
                 <p>Получите подробное описание финансовых условий франшизы Subway</p>
-            <input type="submit" class="submit_cond" value="СКАЧАТЬ ПРЕЗЕНТАЦИЮ ФИНАНСОВЫХ УСЛОВИЙ">
+            <a href="#modal1" type="submit "class="open_modal submit_cond">СКАЧАТЬ ПРЕЗЕНТАЦИЮ ФИНАНСОВЫХ УСЛОВИЙ </a>
+
         </div>
 
     </div>
@@ -115,7 +116,7 @@
             <p>
                 а мы поможем найти подходящую площадку в вашем городе
             </p>
-            <div id="block-for-slider">
+            <div id="block-for-slider" class="slider-a">
                 <div id="viewport">
                     <ul id="slidewrapper">
                         <li class="slide">
@@ -151,7 +152,7 @@
                         <li class="slide-nav-btn"></li>
                     </ul>
                 </div>
-                <input type="submit" class="submit_present" value="Получить подробную презентацию">
+                <a href="#modal1" type="submit "class="open_modal submit_present">Получить подробную презентацию </a>
             </div>
         </div>
     </div>
@@ -159,7 +160,7 @@
     <div class="facty">
         <div class="center-block-main clearfix" >
             <div class="restor">
-                <h6 class="restoran">44<span class="">800</span></h6>
+                <h6 class="restoran">44<800</h6>
                 <p>
                     ресторанов во всем мире
                 </p>
@@ -185,7 +186,11 @@
                     ресторанов по всей России
                 </p>
             </div>
-            <input type="submit" class="submit_prog" value="Получите программу развития вашего ресторана">
+            <div class="modal_butt">
+                <a href="#modal1" type="submit "class="open_modal submit_prog">Получите программу развития вашего ресторана </a>
+            </div>
+
+
         </div>
     </div>
 
@@ -357,7 +362,6 @@
                 на ваш email. Менеджер по франчайзингу Subway Россия
                 ответит на все Ваши вопросы
             </p>
-
             <form class="form-send">
                 <input type="text" class="coll_inpt" name="name" placeholder="Имя" required>
                 <input type="text" class="coll_inpt" name="E-mail" placeholder="E-mail" required>
@@ -393,6 +397,27 @@
     </div>
 </footer>
 
+<!--Модальные окна -->
+<div id="modal1" class="modal_div">
+
+    <div class="send-form">
+        <h6><span class="modal_close">X</span>Получите консультацию по открытию </br> ресторана SUBWAY </h6>
+        <p>
+            Мы отправим Вам подробную презентацию франшизы Subway
+            на ваш email. Менеджер по франчайзингу Subway Россия
+            ответит на все Ваши вопросы
+        </p>
+        <form class="form-send">
+            <input type="text" class="coll_inpt" name="name" placeholder="Имя" required>
+            <input type="text" class="coll_inpt" name="E-mail" placeholder="E-mail" required>
+            <input type="text" class="coll_inpt" name="phone" placeholder="Телефон" required>
+            <input type="text" class="coll_inpt" name="E-mail" placeholder="Город открытия" required>
+            <input type="submit" class="submit_coll" value="Получить презентацию">
+        </form>
+    </div>
+</div>
+<!-- Подложка  -->
+<div id="overlay"></div>
 
 <script src="js/scripts.js"></script>
 </body>
